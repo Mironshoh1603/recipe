@@ -1,4 +1,5 @@
 require("dotenv").config({ path: "./config.env" });
+const cool = require("cool-ascii-faces");
 const express = require("express");
 const expressLayouts = require("express-ejs-layouts");
 const fileUpload = require("express-fileupload");
