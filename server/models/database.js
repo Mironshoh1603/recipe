@@ -11,4 +11,4 @@ const pool = new Pool({
 
 // Models
 require("./Category");
-require("./Recipe");
+require("./recipe");
