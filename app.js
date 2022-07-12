@@ -9,7 +9,7 @@ const flash = require("connect-flash");
 
 const { Pool } = require("pg");
 const pool = new Pool({
-  connectionString: process.env.DATABASE.raplace(
+  connectionString: process.env.DATABASE.replace(
     "<password>",
     process.env.PASSWORD
   ),
