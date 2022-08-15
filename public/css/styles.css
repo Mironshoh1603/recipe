@@ -43,3 +43,12 @@ a { color: var(--bs-dark); }
   width: 100%;
   object-fit: cover;
 }
+
+@media(max-width:787px) {
+  .container-xx1{
+  padding: 0 10px;
+
+
+  }
+  
+}
