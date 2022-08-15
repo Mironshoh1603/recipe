@@ -1,6 +1,6 @@
 require("../models/database");
 const Category = require("../models/Category");
-const Recipe = require("../models/Recipe");
+const Recipe = require("../models/recipe");
 
 /**
  * GET /
